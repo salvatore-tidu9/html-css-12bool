@@ -18,6 +18,8 @@
 
 /* Fine Debug */
 
+
+
 * {
   margin: 0;
   padding: 0;
@@ -32,6 +34,10 @@
 [class*="col_"] {
   float: left;
 }
+
+
+
+/* Gestione Larghezza Colonne */
 
 .col_1 {
   width: calc( (100% / 12) * 1);
