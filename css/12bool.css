@@ -5,7 +5,7 @@
   border: 1px solid black;
 }
 
-.debug .container .row_1, .debug .container .row_2, .debug .container .row_3, .debug .container .row_4, .debug .container .row_5 {
+[class*="row_"] {
   height: 300px;
   border: 1px solid black;
 }
