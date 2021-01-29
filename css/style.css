@@ -1,0 +1,35 @@
+body {
+  background-color: lightgrey;
+}
+
+.container {
+  background-color: pink;
+}
+
+[class*="col_"] {
+  position: relative;
+}
+
+span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.row_5 .col_2 {
+  text-align: center;
+}
+
+.row_5 .col_6 {
+  padding: 5px;
+}
+
+.col_6 div {
+  background-color: #fb002c;
+  border: 1px solid white;
+}
+
+.col_6 .col_8 {
+  padding-right: 5px;
+}
